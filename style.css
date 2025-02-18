@@ -101,7 +101,7 @@
 .about-details{
     margin-top: 20px;
     background-image: url(images/stats-bg.jpg);
-    height: 200px;
+    height: 250px;
     color: black;
     font-family: cursive;
     text-align: center;
@@ -213,6 +213,7 @@
     transition: 0.3s;
   }
   .chefs .team-member .member-img {
+    margin-top: 20px;
     position: relative;
     overflow: hidden;
   }
