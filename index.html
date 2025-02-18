@@ -43,6 +43,9 @@
               <a class="nav-link active" aria-current="page" href="#events">Events</a>
             </li>
             <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#chefs">Chefs</a>
+            </li>
+            <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#gallery">Gallery</a>
             </li>
             <li class="nav-item dropdown">
@@ -112,8 +115,9 @@
       <div class="row p-3">
         <div class="col-lg-6">
          <div class="card border border-dark p-4">
-          <h3><b> Book a Table 🍜</b></h3>
-          <p class="description-title">  +1 5589 55488 55</p>
+          <div class="table">
+          <h5><b> Book a Table 🍜</b></h5>
+          <h4 class="description-title">  +1 5589 55488 55</h4></div>
          </div>
         </div>
         <div class="col-lg-4">
@@ -133,7 +137,7 @@
                 Our partner restaurants use the freshest ingredients to prepare mouth-watering dishes that satisfy every craving. 
                 Time matters, and we ensure your food arrives hot and fresh right at your doorstep, whenever you need it.</p>
             </div>
-            <button> Learn More > </button>
+            <button class="btn"> Learn More > </button>
           </div>
         </div>
       </div>
@@ -172,7 +176,7 @@
     </div>
     </div>
   </div>
-       <!-- --------------------- Count --------------- -->
+  <!-- ------------------------------ Count --------------------------- -->
   <div class="about-details">
     <div class="row p-4">
        <div class="col-lg-4">
@@ -280,58 +284,117 @@
           </div>
     </div>
       <!-- ------------------------------menu end --------------------------------- -->
-                        <!-------------Testimonial Start --------------->
+        <!---------------------Testimonial Start ----------------------------------->
 
-      <div class="container" id="testimonial">
-        <div class="container-fluid customer-section"> 
-        <div class="row">
-          <h2 class="heading">Testimonials</h2>
-          <div class="subpara">
-          <p><span>What are they saying </span> <span class="description-title"> About Us</span></p>
-          </div>
-        </div>
-        <section id="testimonial">
-          <div class="container-fluid customer-section">
-           <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
-             <div class="carousel-inner">
-               <div class="carousel-item active">
-                     <div class="carousel-cust">
-                      <img src="images/testimonials-1.jpg" alt="" class="carousel-img" height="100px">                
-                       <p class="carousel-text">"Craving satisfied, one click at a time! Your favorite food, just a tap away."</p>
-                       <p class="d-flex justify-content-center"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i></p>
-                       <p class="d-flex justify-content-center">Jenna Christine</p>
-                     </div>
-               </div>
-               <div class="carousel-item">
-                    <div class="carousel-cust">
-                      <img src="images/testimonials-2.jpg" alt="" class="carousel-img" height="100px">
-                       <p class="carousel-text">"Order. Eat. Repeat! Fast, fresh, and at your doorstep.”</p>
-                       <p class="d-flex justify-content-center"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></p>
-                       <p class="d-flex justify-content-center">John Larson</p>
-                     </div>
-               </div>
-               <div class="carousel-item">
-                <div class="carousel-cust">
-                  <img src="images/testimonials-3.jpg" alt="" class="carousel-img" height="100px">
-                   <p class="carousel-text">"Deliciousness delivered in minutes! Skip the line, order online.”</p>
-                   <p class="d-flex justify-content-center"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i><i class="fa-regular fa-star"></i></p>
-                   <p class="d-flex justify-content-center">Sara Wilson</p>
+            <div class="container-fluid container-testimonial" id="testimonial">
+              <div class="row">
+                <h2 class="heading">Testimonials</h2>
+                <div class="subpara">
+                <p><span>What are They </span> <span class="description-title"> Saying about Us</span></p>
                 </div>
-               </div>          
-             </div>
-             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="prev">
-               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-               <span class="active"></span>
-             </button>
-             <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleRide" data-bs-slide="next">
-               <span class="carousel-control-next-icon" aria-hidden="true"></span>
-               <span class="active"></span>
-             </button>
-           </div>
-          </div>
-        </section>
-      </div>     
-                 <!-----------------Testimonial end ------------------ -->  
+              </div>
+               <div class="swiper swipper-testimonial mySwiper mt-5">
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide swiper-slides">
+                      <div class="row">
+                        <div class="col-lg-7">
+                          <div class="card card-test border-0" style="width: 18rem;">
+                            <div class="testimonial-text">
+                              <p class="fst-italic border-start border-4 border-danger h-100">
+                                <i class="fa-solid fa-quote-left"></i>
+                                  Craving satisfied, one click at a time! Your favorite food, just a tap away.
+                                  <i class="fa-solid fa-quote-right"></i></p>
+                                    <h5 class="test-head"><b>Saul Goodman </b></h5>
+                                    <h6 class="test-head1">CEO & FOUNDER</h6>
+                                  <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                  </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-lg-4" style="width: 8rem; height: 6rem;">
+                          <img src="images/testimonials-1.jpg" alt="" class="test-img rounded-circle img-fluid" height="20px">
+                        </div>
+                      </div>
+                    </div>
+
+                      <div class="swiper-slide swiper-slides">
+                        <div class="row">
+                          <div class="col-lg-7">
+                            <div class="card card-test border-0" style="width: 18rem;">
+                              <div class="testimonial-text">
+                                <p class="fst-italic border-start border-4 border-danger h-100">
+                                  <i class="fa-solid fa-quote-left"></i>
+                                  Order. Eat. Repeat! Fast, fresh, and at your doorstep.
+                                  <i class="fa-solid fa-quote-right"></i></p>
+                                    <h5 class="test-head"><b>Sara Wilsson</b></h5>
+                                    <h6 class="test-head1">DESIGNER</h6>
+                                  <div class="stars">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-regular fa-star-half-stroke"></i>
+                                  </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4" style="width: 8rem; height: 6rem;">
+                            <img src="images/testimonials-2.jpg" alt="" class="test-img rounded-circle img-fluid" height="20px">
+                          </div>
+                        </div>
+                      </div>
+                    
+                      <div class="swiper-slide swiper-slides">
+                        <div class="row">
+                          <div class="col-lg-7">
+                            <div class="card card-test border-0" style="width: 18rem;">
+                              <div class="testimonial-text">
+                               <p class="fst-italic border-start border-4 border-danger h-100">
+                                <i class="fa-solid fa-quote-left"></i>
+                                Deliciousness delivered in minutes! Skip the line, order online. Then at your doorstep.                  
+                                <i class="fa-solid fa-quote-right"></i></p>
+                                <h5 class="test-head"><b>Jena Karlis</b></h5>
+                                <h6 class="test-head1">STORE OWNER</h6>
+                                <div class="stars">
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>              
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-solid fa-star"></i>
+                                  <i class="fa-regular fa-star"></i>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="col-lg-4" style="width: 8rem; height: 6rem;">
+                            <img src="images/testimonials-3.jpg" alt="" class="test-img rounded-circle img-fluid" height="20px">
+                          </div>
+                        </div>
+                      </div>
+
+                      <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  
+                              <script>
+                                var swiper = new Swiper(".mySwiper", {
+                                  loop: true, 
+                                  autoplay: {
+                                  delay: 2000,
+                                  disableOnInteraction: false, 
+                              },
+                                  pagination: {
+                                    el: ".swiper-pagination",
+                                    clickable: true,
+                                  },
+                                });
+                              </script>
+                  </div>
+                </div>
+            </div>
+      <!-----------------------------Testimonial end ------------------------------ -->  
     <!-- ------------------------------Events Start --------------------------------- -->
 
     <div class="container swiper-container mt-5">
@@ -420,7 +483,86 @@
           }
         });
       </script>
-          <!-- ------------------------------Events end --------------------------------- -->
+      <!-----------------------event end---------------------------------------------->
+      <!-----------------------------chef start--------------------------------------->
+      
+      <section id="chefs" class="chefs section">
+          <div class="row">
+            <h2 class="heading">Chefs</h2>
+            <div class="subpara">
+            <p><span>Our </span> <span class="description-title"> Proffesional Chefs</span></p>
+            </div>
+          </div>
+  
+        <div class="container"> 
+          <div class="row gy-4">
+            <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+              <div class="team-member">
+                <div class="member-img">
+                  <img src="images/chefs-1.jpg" class="img-fluid" alt="">
+                  <div class="social">
+                    <i class="fa-brands fa-square-facebook"></i><br>
+                    <i class="fa-brands fa-instagram"></i><br>
+                    <i class="fa-brands fa-twitter"></i><br>
+                    <i class="fa-brands fa-linkedin"></i><br>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Walter White</h4>
+                  <span>Master Chef</span>
+                  <p>With years of expertise, creativity, and an unwavering dedication to flavor, our Master Chef transforms the finest 
+                    ingredients into unforgettable dining experiences. From gourmet delicacies to modern twists on classic dishes, 
+                    each creation is a testament to skill, innovation, and a love for gastronomy.</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+              <div class="team-member">
+                <div class="member-img">
+                  <img src="images/chefs-2.jpg" class="img-fluid" alt="">
+                  <div class="social">
+                    <i class="fa-brands fa-square-facebook"></i><br>
+                    <i class="fa-brands fa-instagram"></i><br>
+                    <i class="fa-brands fa-twitter"></i><br>
+                    <i class="fa-brands fa-linkedin"></i><br>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>Sarah Jhonson</h4>
+                  <span>Patissier</span>
+                  <p>Discover exquisite handcrafted pastries, cakes, and desserts made with the finest ingredients 
+                    and a passion for perfection. From delicate macarons to luxurious custom cakes, 
+                    our pâtisserie brings French elegance and flavor to every bite. Order online or visit us to experience the sweet side of life.</p>
+                </div>
+              </div>
+            </div>
+  
+            <div class="col-lg-4 d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+              <div class="team-member">
+                <div class="member-img">
+                  <img src="images/chefs-3.jpg" class="img-fluid" alt="">
+                  <div class="social">
+                    <i class="fa-brands fa-square-facebook"></i><br>
+                    <i class="fa-brands fa-instagram"></i><br>
+                    <i class="fa-brands fa-twitter"></i><br>
+                    <i class="fa-brands fa-linkedin"></i><br>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h4>William Anderson</h4>
+                  <span>Cook</span>
+                  <p>Discover delicious recipes, expert cooking tips, and kitchen hacks to elevate your culinary skills. 
+                    Whether you're a beginner or a seasoned chef, explore a world of flavors with easy-to-follow recipes, 
+                    step-by-step guides, and mouthwatering inspiration for every meal!.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+          <!-- ------------------------------chef end --------------------------------- -->
           <!-- ------------------------------Book a Table Start --------------------------------- -->
          
           <div class="container" id="booking">
@@ -470,8 +612,9 @@
             </div>
           </div>
     <!-- ------------------------------Gallery Start --------------------------------- -->
+
     <div class="container" id="gallery">
-      <div class="container-fluid gallery-section"> 
+      <div class="container-gallery-section"> 
       <div class="row">
         <h2 class="heading">Gallery</h2>
         <div class="subpara">
@@ -479,9 +622,54 @@
         </div>
       </div>
       
-      
-  
+      <div class="swiper gallery-Swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide gallery-slide">
+            <img src="images/gallery-1.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide gallery-slide">
+            <img src="images/gallery-2.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide gallery-slide">
+            <img src="images/gallery-3.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide gallery-slide">
+            <img src="images/gallery-4.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide gallery-slide">
+            <img src="images/gallery-5.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide gallery-slide">
+            <img src="images/gallery-6.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide gallery-slide">
+            <img src="images/gallery-7.jpg" alt="" class="img-fluid">
+          </div>
+          <div class="swiper-slide gallery-slide">
+            <img src="images/gallery-8.jpg" alt="" class="img-fluid">
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
     </div>
+     
+     <script>
+      var swiper = new Swiper(".gallery-Swiper", {
+        loop:true,
+        autoplay: {
+          delay: 5000,
+          disableOnInteraction: false,
+        },
+        slidesPerView: 3,
+        spaceBetween: 30,
+        freeMode: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+
     <!-- ------------------------------Gallery end--------------------------------- -->
     <!-- ------------------------------Contact Us Start --------------------------------- -->
 
@@ -541,7 +729,7 @@
           </div>
         </div>
 
-        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="600">
+        <form action="" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="600">
           <div class="row gy-4">
             <div class="col-md-6">
               <input type="text" name="name" class="form-control" placeholder="Your Name" required="">
@@ -639,31 +827,6 @@
             <hr>
     </footer>
 </footer>
-
  
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-  <script>
-    const swiper = new Swiper('.mySwiper', {
-      loop: false, 
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true, 
-      },
-      breakpoints: {
-        320: { 
-          slidesPerView: 1,
-        },
-        768: { 
-          slidesPerView: 2,
-        },
-        1024: { 
-          slidesPerView: 4,
-        },
-      },
-    });
-  </script>
-
-
 </body>
 </html>
