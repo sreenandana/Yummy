@@ -301,3 +301,29 @@
     margin-top: 20px;
     background-color: rgb(224, 224, 224);
 }
+.icon-container {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 24px;
+}
+.contact-card{
+  padding: 10px;
+  background-color: white;
+  box-shadow:10px 5px 10px 5px rgb(226, 225, 225);
+}
+.text-container h5{
+  color: #555;
+  font-weight: 600;
+}
+.text-container {
+  font-size: 20px;
+}
+.email-form{
+  margin-top: 20px;
+}
