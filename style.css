@@ -98,6 +98,10 @@
     border-radius: 30px;
     background-color: rgb(208, 45, 45);
 }
+.contact-card1{
+  padding: 10px;
+  background-color: white;
+}
 .about-details{
     margin-top: 20px;
     background-image: url(images/stats-bg.jpg);
@@ -299,7 +303,7 @@
   /* gallery */
 .container-gallery-section{
     margin-top: 20px;
-    background-color: rgb(224, 224, 224);
+    background-color: rgb(227, 212, 212);
 }
 .icon-container {
   width: 50px;
